@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+header{
+    background-color: #926FF6 ;
+    color: white;
+}
+
+#wave{
+    background-image: url("image/background-wave.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 16vh;
+}
+
+#video-capture{
+    width: 100%;
+}
+
+.card-group > .card > img {
+    width: 72px;
+}
+
+.card{
+    border: none !important;
+}
+
+.card-group{
+    box-shadow: 1px 1px 8px 8px rgba(120, 120, 120, .1) ;
+    border-radius: 8px;
+    position: relative;
+    z-index: 100;
+}
+
+#wave-under-cards{
+    margin-bottom: -24vh ;
+}
+
+@media (max-width: 768px) {
+    #wave-under-cards {
+      display: none;
+    }
+    #last-section{
+        margin-top: 100vh;
+    }
+  }
+
+#background-wave-top{
+    background-image: url("image/wave-top.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 16vh;
+}
+#background-wave-bottom{
+    background-image: url("image/wave-bottom.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 16vh;
+}
+
+
+#background-color-purple-under-wave{
+    background-color: #F7EEFF;
+    height: 24vh;
+}
+
+#background-color-purple{
+    background-color: #F7EEFF;
+    height: 130vh;
+}
+
+.btn-pink{
+    color:white;
+    background-color: #F3849F;
+    border-radius: 24px;
+}
+
+.btn-pink:hover{
+    color:white;
+}
+
+.btn-hero{
+    width: 120px;
+    margin: 8px;
+}
+
+#play-circle{
+    color: #F3849F;
+    font-size: 32px;
+}
+
+#play-video{
+    color: #F3849F;
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+.img-grid-size
+{
+    height: 32vh;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+
+.card-title1
+{
+    color:#F3849F;
+}
+.card-title2
+{
+    color:#926FF6;
+}    
+.card-title3
+{
+    color:#79CFFF;  
+} 
+
+#footer{
+    background-color: #333333 ;
+    height: 8vh;
+    color:white;
+}
+
+.bi-arrow-down-circle{
+    font-size: 2.5rem;
+}
+
+a .bi-arrow-down-circle{
+    color: white;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.svg{
+    margin-left: 13vh;
+}

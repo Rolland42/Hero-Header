@@ -6,9 +6,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="integration maquette téléchargé sur figma, conçue par un webdesiger pro.">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="favion.ico" type="image/x-icon">
-<title>Pizza</title>
+<link rel="shortcut icon" href="logo.png" type="image/png">
+<title>Hero Header</title>
 </head>
 <body>
 
